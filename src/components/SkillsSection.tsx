@@ -27,9 +27,7 @@ const SkillsSection: React.FC = () => {
         { name: "Node.js" },
         { name: "Express.js" },
         { name: "Python" },
-        { name: "Java" },
-        { name: "REST APIs" },
-        { name: "PHP" }
+       
       ]
     },
     {
@@ -38,11 +36,7 @@ const SkillsSection: React.FC = () => {
       icon: <Database className="w-6 h-6" />,
       skills: [
         { name: "MySQL" },
-        { name: "MongoDB" },
-        { name: "PostgreSQL" },
-        { name: "Firebase" },
-        { name: "SQLite" },
-        { name: "Redis" }
+       
       ]
     },
     {
@@ -51,11 +45,7 @@ const SkillsSection: React.FC = () => {
       icon: <Zap className="w-6 h-6" />,
       skills: [
         { name: "Git & GitHub" },
-        { name: "VS Code" },
-        { name: "Figma" },
-        { name: "Postman" },
-        { name: "Linux" },
-        { name: "Docker" }
+        { name: "VS Code" }
       ]
     }
   ];

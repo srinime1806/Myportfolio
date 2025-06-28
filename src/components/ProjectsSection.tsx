@@ -9,45 +9,45 @@ const ProjectsSection: React.FC = () => {
       description: "A responsive portfolio website built with React and Tailwind CSS to showcase my projects and skills. Features smooth animations and modern design.",
       image: "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800",
       technologies: ["React", "TypeScript", "Tailwind CSS", "Vite"],
-      githubUrl: "https://github.com/johndoe/portfolio",
-      liveUrl: "https://johndoe-portfolio.vercel.app",
+      githubUrl: "https://github.com/srinime1806/Myportfolio.git",
+      liveUrl: "https://srineela-portfolio.vercel.app/",
       featured: true,
       type: "Personal Project"
     },
     {
       id: 2,
-      title: "Todo List Application",
-      description: "A full-stack todo application with user authentication, CRUD operations, and real-time updates. Built as a learning project to understand React and Node.js.",
-      image: "https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800",
-      technologies: ["React", "Node.js", "Express", "MongoDB"],
-      githubUrl: "https://github.com/johndoe/todo-app",
-      liveUrl: "https://todo-app-demo.vercel.app",
+      title: "Quizzy",
+      description: "Quizzy is a fun and fast-paced quiz app where users can test their knowledge, challenge friends, and learn new things through exciting games. It’s designed to make learning enjoyable with instant feedback, scores, and a variety of topics to explore.",
+      image: "images.png",
+      technologies: ["React", "TypeScript", "Tailwind CSS", "Vite"],
+      githubUrl: "https://github.com/srinime1806/Quizzy.git",
+      liveUrl: "https://quizzy-project.vercel.app/",
+      featured: true,
+      type: "API Integration"
+    },
+    {
+      id: 3,
+      title: "StegaNest",
+      description: "Steganest is a smart app that lets you hide secret messages inside pictures. It uses encryption and clever coding so only people with the right password can read the hidden information.",
+      image: "steganest.jpeg",
+      technologies: ["React", "TypeScript", "Tailwind CSS", "Vite"],
+      githubUrl: "https://github.com/jkplearner/StegaNest.git",
+      liveUrl: "stega-nest.vercel.app",
       featured: true,
       type: "Learning Project"
     },
     {
-      id: 3,
-      title: "Weather App",
-      description: "A weather application that displays current weather and 5-day forecast using OpenWeather API. Responsive design with location-based weather data.",
-      image: "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800",
-      technologies: ["JavaScript", "HTML", "CSS", "Weather API"],
-      githubUrl: "https://github.com/johndoe/weather-app",
-      liveUrl: "https://weather-app-demo.netlify.app",
-      featured: false,
-      type: "API Integration"
-    },
-    {
       id: 4,
-      title: "Student Management System",
-      description: "A college project for managing student records with features like add, edit, delete, and search functionality. Built with Java and MySQL database.",
-      image: "https://images.pexels.com/photos/5668882/pexels-photo-5668882.jpeg?auto=compress&cs=tinysrgb&w=800",
-      technologies: ["Java", "MySQL", "Swing", "JDBC"],
-      githubUrl: "https://github.com/johndoe/student-management",
+      title: "Data Analytics Project",
+      description: "A project that involves collecting, analyzing, and visualizing data to find useful insights. It uses tools like Python to support decision-making through data-driven conclusions.",
+      image: "da pic.jpeg",
+      technologies: ["Python"],
+      githubUrl: "https://github.com/srinime1806/Data-Analytics.git",
       liveUrl: "#",
       featured: false,
       type: "College Project"
     },
-    {
+   /* {
       id: 5,
       title: "Recipe Finder App",
       description: "A recipe search application using TheMealDB API. Users can search for recipes, view ingredients, and save favorites. Built to practice API integration.",
@@ -68,7 +68,7 @@ const ProjectsSection: React.FC = () => {
       liveUrl: "https://calculator-demo.netlify.app",
       featured: false,
       type: "Beginner Project"
-    }
+    }*/
   ];
 
   const featuredProjects = projects.filter(project => project.featured);
@@ -242,9 +242,7 @@ const ProjectsSection: React.FC = () => {
               full-stack applications, I'm constantly challenging myself to learn new technologies and improve my skills.
             </p>
             <div className="flex flex-wrap justify-center gap-4 text-sm">
-              <div className="flex items-center px-4 py-2 bg-blue-500/20 text-blue-300 rounded-full border border-blue-500/30">
-                <span>15+ Projects Completed</span>
-              </div>
+             
               <div className="flex items-center px-4 py-2 bg-green-500/20 text-green-300 rounded-full border border-green-500/30">
                 <span>Always Learning</span>
               </div>
@@ -258,7 +256,7 @@ const ProjectsSection: React.FC = () => {
         {/* View More Projects */}
         <div className="text-center mt-12">
           <a
-            href="https://github.com/johndoe"
+            href="https://github.com/srinime1806"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
